@@ -1,0 +1,123 @@
+
+@font-face {
+  font-family: "Figtree";
+  src: url("assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("assets/fonts/Figtree-VariableFont_wght.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("assets/fonts/static/Figtree-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("assets/fonts/static/Figtree-SemiBold.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+:root{
+  --yellow:hsl(47, 88%, 63%);
+  --white:hsl(0, 0%, 100%);
+  --gray-500:hsl(0, 0%, 42%);
+  --gray-900:hsl(0, 0%, 7%);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding:0;
+}
+
+body{
+  background-color: var(--yellow);
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+    display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Figtree;
+
+}
+
+.card{
+  background-color: var(--white);
+  margin: 1em;
+  max-width: 385px;
+  border-radius: 20px;
+  padding: 1.4em;
+  border:1px solid black;
+  box-shadow: 5px 5px 0 3px;
+}
+
+.card > img{
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.1em;
+}
+
+.card-status{
+  background-color: var(--yellow);
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  margin-bottom: 0.8em;
+  font-weight: 900;
+  font-size:0.9rem;
+  border-radius: 5px;
+}
+
+.card-date{
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0.8em;
+  color: var(--gray-900);
+}
+
+h2{
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+
+h2:hover{
+  color: var(--yellow);
+}
+
+.card-desc p{
+  color: var(--gray-500);
+  word-spacing: 1px;
+  margin-bottom: 1.6em;
+}
+
+.card-author{
+  display: flex;
+  gap: 0.8em;
+  align-items: center;
+}
+
+.card-author img{
+  max-width: 100%;
+}
+
+.card-author p{
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
