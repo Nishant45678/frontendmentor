@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [click here](https://nishant45678.github.io/blog-preview-card-main/)
+- Live Site URL: [click here](https://nishant45678.github.io/frontendmentor/blog-preview-card-main/)
 
 ## My process
 
