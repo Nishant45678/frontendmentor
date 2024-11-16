@@ -69,7 +69,7 @@ img {
 .avatar {
   border-radius: 50%;
   overflow: hidden;
-  max-width: 90px;
+  max-width: 100px;
   margin-bottom: 1.5em;
 }
 
@@ -107,8 +107,8 @@ p {
   color: var(--white);
   border-radius: 8px;
   width: 100%;
-  margin: 0.69em;
-  padding: 0.7em;
+  margin: 0.65em;
+  padding: 0.72em;
   font-size: 0.9rem;
   font-weight: 600;
 }
