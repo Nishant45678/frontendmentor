@@ -46,8 +46,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1em;
 }
 
+main{
+  width: 100%;
+}
 .card {
   background-color: var(--gray-800);
   display: grid;
@@ -55,9 +59,9 @@ body {
   padding: 2.5em 2.5em 1.5em 2.5em;
   border-radius: 12px;
   text-align: center;
-  width: 380px;
+  min-width: 310px;
   max-width: 380px;
-  margin: 0 1.6em;
+  margin: 0 auto;
 }
 
 img {
